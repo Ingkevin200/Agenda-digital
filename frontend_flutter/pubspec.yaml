@@ -1,0 +1,21 @@
+name: frontend_flutter
+description: A simple Flutter application.
+
+publish_to: 'none' # Remove this line if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+  # Aquí defines el SDK mínimo que quieres usar
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
