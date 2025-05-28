@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: Text('Digital Agenda')),
-        body: Center(child: Text('Welcome to the Digital Agenda!')),
+        body:
+            Center(child: Text('Hola a tu agenda digital desde el frontend!')),
       ),
     );
   }
