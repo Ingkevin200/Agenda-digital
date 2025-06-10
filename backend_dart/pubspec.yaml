@@ -9,4 +9,4 @@ dependencies:
   # aquí van otras dependencias si tienes, o deja vacío si no hay ninguna
   
 dev_dependencies:
-  lints: ^2.0.0
+  lints: ^3.0.0
