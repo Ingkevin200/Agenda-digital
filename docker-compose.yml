@@ -15,7 +15,7 @@ services:
       context: ./frontend_flutter
       dockerfile: Dockerfile
     ports:
-      - "5000:5000"  # Mapeamos el puerto 5000 interno de nginx al 5000 local
+      - "8081:80"  # Mapeamos el puerto 8081 interno de nginx al 5000 local
     depends_on:
       - backend
     networks:

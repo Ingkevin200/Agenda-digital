@@ -13,7 +13,7 @@ FROM nginx:1.25-alpine
 COPY --from=build /app/build/web /usr/share/nginx/html
 
 # Exponer puerto
-EXPOSE 5000
+EXPOSE 80
 
 # Iniciar nginx
 CMD ["nginx", "-g", "daemon off;"]
