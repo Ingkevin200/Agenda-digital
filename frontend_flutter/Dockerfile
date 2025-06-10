@@ -1,5 +1,6 @@
 # Etapa 1: construir la app Flutter Web
-FROM cirrusci/flutter:latest AS build
+FROM ghcr.io/cirruslabs/flutter:3.19 AS build
+
 
 WORKDIR /app
 COPY . .
