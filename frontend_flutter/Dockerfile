@@ -1,6 +1,5 @@
 # Etapa 1: construir la app Flutter Web
-FROM ghcr.io/cirruslabs/flutter:3.19 AS build
-
+FROM instrumentisto/flutter:3.32.2-androidsdk35-r0 AS build
 
 WORKDIR /app
 COPY . .
