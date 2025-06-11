@@ -23,10 +23,10 @@ services:
 
   jenkins:
     build: ./infra/jenkins
-    container_name: jenkins
+    container_name: jenkins_custom
     ports:
-      - "8080:8080"  # Acceso web Jenkins
-      - "8081:80"
+      - "8083:8080"  # Acceso web Jenkins
+      
     volumes:
       - jenkins_home:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
