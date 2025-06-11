@@ -10,14 +10,14 @@ pipeline {
 
         stage('Construir y levantar servicios') {
             steps {
-                sh 'docker-compose down || exit 0'
-                sh 'docker-compose up -d --build'
+                bat 'docker-compose down || exit 0'
+                bat 'docker-compose up -d --build'
             }
         }
 
         stage('Verificar contenedores') {
             steps {
-                sh 'docker ps'
+                bat 'docker ps'
             }
         }
     }
